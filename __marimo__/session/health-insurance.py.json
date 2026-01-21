@@ -1,0 +1,39 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.4"
+  },
+  "cells": [
+    {
+      "id": "MJUe",
+      "code_hash": "5d10e52b9026e1744ff1acd12b2b19fd",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><h1 id=\"concrete-health-insurance-data-procurement\">ConCReTE: Health Insurance Data Procurement</h1>\n<h2 id=\"the-story-so-far\">The Story So Far</h2>\n<span class=\"paragraph\">You are working on a team at Academy Health Insurance that is in charge of procuring data for\npredictive analytics. Specifically, you need to support an existing team that is forecasting future\nhealthcare trends and is used to personalize insurance plans as well as optimize processing.</span>\n<span class=\"paragraph\">This team has been been relying on the <em>2022 Patient and Claims Annual Report Data</em> for its deployable models. The license for this data is now up for renewal. A new and different dataset is now available, the <em>2024 Comprehensive Patient Care and Insurance Claims Dataset.</em> The data scientists on the predictive analytics team have heard from others that this new dataset can add significant value to forecasts as it has higher spatialtemporal resolution and more coverage. They would like to incorporate the new data as soon as possible. The costs the renewed license for the old data and a new license for the <em>2024 Comprehensive Patient Care and Insurance Claims Dataset</em> are the same.</span>\n<h3 id=\"role\">Role</h3>\n<span class=\"paragraph\">You are the Procurement Team Lead. You are responsible for:</span>\n<ul>\n<li>Evaluating and acquiring high-quality datasets to improve the company's analytical models as\nmeasured by out-of-sample performance on future data.</li>\n<li>Facilitating vendor reviews and ensuring all datasets comply with applicable provenance\nrequirements, including metadata coverage, regulatory requirements, and transparent AI data\nusage.</li>\n<li>Ensuring that procured data meets integration operational needs.</li>\n<li>Ensuring data usage aligns with healthcare regulations and company policies.</li>\n<li>Leveraging data insights for innovative marketing and improved customer trust.</li>\n</ul>\n<h3 id=\"business-objective\">Business Objective</h3>\n<span class=\"paragraph\">You will create a recommendation for whether the new data should be procured or\nthe old data renewed.</span>\n<ul>\n<li>You must justify your choices to your bosses and be prepared to answer tough\nquestions on how your choices add value to the organization.</li>\n<li>Because of budget constraints you cannot procure both the new data and renew the\nprevious data license.</li>\n<li>In process of coming up with your recommendation you have the choice to get\nadvice for data curators on your team, the legal team, data scientists within the\npredictive analytics team, and marketing.</li>\n</ul>\n<h3 id=\"data\">Data</h3>\n<span class=\"paragraph\">Below is the new dataset. You may show it to any, all, or none of the aforementioned teams to get their feedback before making your decision.</span></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "dafff880ae38f9b659340c19a6aa66e8",
+      "outputs": [],
+      "console": []
+    },
+    {
+      "id": "bkHC",
+      "code_hash": "0cdc17601c807df27cf010899ce43423",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
