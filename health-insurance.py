@@ -57,15 +57,16 @@ def _():
 
 
 @app.cell
-def _(mo):
+def _():
     TEAM_ADVICE = {
         "Data Curators": "Assess metadata coverage: Best practices are to evaluate the dataset's metadata to ensure it includes essential information like the dataset title, unique metadata identifier, metadata location, and details about data origin and collection methods. This step is crucial for establishing the dataset's lineage, context, and usage restrictions, aligning with the company's data provenance standards. In particular, it is crucial that future information does not leak into forecasts thus the time it takes to collect the values — not just the time stamps — are important. The curator suggests that given the scale of the data being considered, 4 business days will be necessary to check the information.",
         "Legal Team": "Ensure regulatory compliance: Collaborate with the legal department to review the dataset for its adherence to healthcare data regulations, focusing on confidentiality classification, consent documentation, and data processing and storage geographies. The legal team confirms that they can complete the legal checks within 4 days.",
         "Data Scientists": "Operational efficiency and integration: Meet with the analytics team that assesses how well the dataset will integrate with existing systems and whether it can provide the expected enhancements to the analytical models without significant overhaul or disruption. What is the expected time and investment needed to incorporate the new data versus a renewal. The data analytics team confirms that they will be able to implement the new data into their pipeline with very little new code. They estimate they can train new and test new models within a week of receiving the data. They confirm their next deployment deadline is not for 21 business days.",
         "Marketing": "Strategic use and innovation: Explore how the dataset can be used to develop innovative marketing strategies and improve customer trust. This will involve touching base with the marketing team, which is focused on analyzing the dataset's intent and proprietary data presence to identify new opportunities for personalized customer engagement and service delivery. The marketing team suggests that avoiding false promises to customers is crucial."
     }
-    return TEAM_ADVICE
-    
+    return (TEAM_ADVICE,)
+
+
 @app.cell
 def _(mo):
     # Define buttons
@@ -76,10 +77,11 @@ def _(mo):
 
     # Display them
     mo.hstack([curator_btn, legal_btn, ds_btn, marketing_btn], justify="center", gap=1.0)
-    return curator_btn, legal_btn, ds_btn, marketing_btn
+    return curator_btn, ds_btn, legal_btn, marketing_btn
+
 
 @app.cell
-def _(mo, curator_btn, legal_btn, ds_btn, marketing_btn, TEAM_ADVICE):
+def _(TEAM_ADVICE, curator_btn, ds_btn, legal_btn, marketing_btn, mo):
     advice_display = mo.md("_Click a team button above to view their advice..._")
     # Check which button was clicked and display output immediately
     if curator_btn.value:
@@ -93,7 +95,30 @@ def _(mo, curator_btn, legal_btn, ds_btn, marketing_btn, TEAM_ADVICE):
 
     elif marketing_btn.value:
         advice_display = mo.md(f"### 💡 Advice from Marketing\n\n> {TEAM_ADVICE['Marketing']}")
-    
+
     advice_display
-    
+
     return
+
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ---
+    ## Recommendation
+    """)
+    return
+
+
+@app.cell
+def _(mo):
+    recommendation = mo.ui.radio(
+        options={"Use data provenance standard to check new data, despite delay": 1, "Forgo data provenance standard check in order to expedite improved model performance from the new data": 2, "Forgo data provenance standard and recommend renewal of previous license": 3},
+        label="Having conferred with members of your organization, what do you recommend?",
+    )
+    recommendation
+    return
+
+
+if __name__ == "__main__":
+    app.run()

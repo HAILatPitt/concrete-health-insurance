@@ -5,6 +5,19 @@
   },
   "cells": [
     {
+      "id": "Hbol",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
       "id": "MJUe",
       "code_hash": "5d10e52b9026e1744ff1acd12b2b19fd",
       "outputs": [
@@ -18,39 +31,81 @@
       "console": []
     },
     {
-      "id": "Hbol",
-      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
-      "outputs": [],
-      "console": []
-    },
-    {
       "id": "vblA",
       "code_hash": "dafff880ae38f9b659340c19a6aa66e8",
-      "outputs": [],
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='vblA-0' random-id='6f4a49af-a162-a7ca-b2bd-212053f00b33'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;index&#92;&quot;:0,&#92;&quot;PatientID&#92;&quot;:1,&#92;&quot;age&#92;&quot;:39.0,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:23.2,&#92;&quot;bloodpressure&#92;&quot;:91,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;southeast&#92;&quot;,&#92;&quot;claim&#92;&quot;:1121.87},{&#92;&quot;index&#92;&quot;:1,&#92;&quot;PatientID&#92;&quot;:2,&#92;&quot;age&#92;&quot;:24.0,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:30.1,&#92;&quot;bloodpressure&#92;&quot;:87,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;southeast&#92;&quot;,&#92;&quot;claim&#92;&quot;:1131.51},{&#92;&quot;index&#92;&quot;:2,&#92;&quot;PatientID&#92;&quot;:3,&#92;&quot;age&#92;&quot;:NaN,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:33.3,&#92;&quot;bloodpressure&#92;&quot;:82,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;southeast&#92;&quot;,&#92;&quot;claim&#92;&quot;:1135.94},{&#92;&quot;index&#92;&quot;:3,&#92;&quot;PatientID&#92;&quot;:4,&#92;&quot;age&#92;&quot;:NaN,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:33.7,&#92;&quot;bloodpressure&#92;&quot;:80,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1136.4},{&#92;&quot;index&#92;&quot;:4,&#92;&quot;PatientID&#92;&quot;:5,&#92;&quot;age&#92;&quot;:NaN,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:34.1,&#92;&quot;bloodpressure&#92;&quot;:100,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1137.01},{&#92;&quot;index&#92;&quot;:5,&#92;&quot;PatientID&#92;&quot;:6,&#92;&quot;age&#92;&quot;:NaN,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:34.4,&#92;&quot;bloodpressure&#92;&quot;:96,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1137.47},{&#92;&quot;index&#92;&quot;:6,&#92;&quot;PatientID&#92;&quot;:7,&#92;&quot;age&#92;&quot;:NaN,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:37.3,&#92;&quot;bloodpressure&#92;&quot;:86,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;Yes&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1141.45},{&#92;&quot;index&#92;&quot;:7,&#92;&quot;PatientID&#92;&quot;:8,&#92;&quot;age&#92;&quot;:19.0,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:41.1,&#92;&quot;bloodpressure&#92;&quot;:100,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1146.8},{&#92;&quot;index&#92;&quot;:8,&#92;&quot;PatientID&#92;&quot;:9,&#92;&quot;age&#92;&quot;:20.0,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:43.0,&#92;&quot;bloodpressure&#92;&quot;:86,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1149.4},{&#92;&quot;index&#92;&quot;:9,&#92;&quot;PatientID&#92;&quot;:10,&#92;&quot;age&#92;&quot;:30.0,&#92;&quot;gender&#92;&quot;:&#92;&quot;male&#92;&quot;,&#92;&quot;bmi&#92;&quot;:53.1,&#92;&quot;bloodpressure&#92;&quot;:97,&#92;&quot;diabetic&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;children&#92;&quot;:0,&#92;&quot;smoker&#92;&quot;:&#92;&quot;No&#92;&quot;,&#92;&quot;region&#92;&quot;:&#92;&quot;northwest&#92;&quot;,&#92;&quot;claim&#92;&quot;:1163.46}]&quot;' data-total-rows='1340' data-total-columns='11' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;index&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;PatientID&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;age&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;gender&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;bmi&quot;,[&quot;number&quot;,&quot;float64&quot;]],[&quot;bloodpressure&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;diabetic&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;children&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;smoker&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;region&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;claim&quot;,[&quot;number&quot;,&quot;float64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='true' data-show-data-types='true' data-show-page-size-selector='true' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "bkHC",
-      "code_hash": "b94a78e2a4f59ab2c563bffc0e28e6f5",
-      "outputs": [],
+      "code_hash": "8627624dc661a8b41a60a0c1b306444b",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "lEQa",
-      "code_hash": "76a0ef1c47c690d883b3e330ce513135",
-      "outputs": [],
+      "code_hash": "00e526f0313f1fa66eda28732ed32af3",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<div style='display: flex;flex: 1;flex-direction: row;justify-content: center;align-items: normal;flex-wrap: nowrap;gap: 1.0rem'><marimo-ui-element object-id='lEQa-0' random-id='86813806-0c53-60b7-c2f9-b7d1d56be19b'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Data Curators&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element><marimo-ui-element object-id='lEQa-1' random-id='b08cf037-ebb5-4273-95d1-f9234abefda4'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Legal Team&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element><marimo-ui-element object-id='lEQa-2' random-id='a618cec4-34f6-cd99-d82d-92596dd9a2c1'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Data Scientists&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element><marimo-ui-element object-id='lEQa-3' random-id='d095644f-c6d8-48a6-871d-f60f4b9c481d'><marimo-button data-initial-value='0' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Marketing&lt;/span&gt;&lt;/span&gt;&quot;' data-kind='&quot;neutral&quot;' data-disabled='false' data-full-width='false'></marimo-button></marimo-ui-element></div>"
+          }
+        }
+      ],
       "console": []
     },
     {
       "id": "PKri",
-      "code_hash": "d6fbfe00da7b61ca3231f7375f763590",
-      "outputs": [],
+      "code_hash": "2a630126e125d9a536baedf57583deac",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><span class=\"paragraph\"><em>Click a team button above to view their advice...</em></span></span>"
+          }
+        }
+      ],
       "console": []
     },
     {
-      "id": "Xref",
-      "code_hash": "fc889050c7ebf90b6a35abf697705fd7",
-      "outputs": [],
+      "id": "tAGN",
+      "code_hash": "69a8f796ef073c2aa3ad1117b472b7b4",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h2 id=\"recommendation\">Recommendation</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "xAnp",
+      "code_hash": "a17604b2481c058c7ddc1fc426c47800",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='xAnp-0' random-id='b8114697-e8a2-33b5-a2f5-442f2e675508'><marimo-radio data-initial-value='null' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Having conferred with members of your organization, what do you recommend?&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Use data provenance standard to check new data, despite delay&quot;,&quot;Forgo data provenance standard check in order to expedite improved model performance from the new data&quot;,&quot;Forgo data provenance standard and recommend renewal of previous license&quot;]' data-inline='false' data-disabled='false'></marimo-radio></marimo-ui-element>"
+          }
+        }
+      ],
       "console": []
     }
   ]
