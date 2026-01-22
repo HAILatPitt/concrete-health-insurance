@@ -105,7 +105,7 @@ def _(TEAM_ADVICE, curator_btn, ds_btn, legal_btn, marketing_btn, mo):
 def _(mo):
     mo.md("""
     ---
-    ## Recommendation
+    ## Make a Recommendation
     """)
     return
 
@@ -113,10 +113,29 @@ def _(mo):
 @app.cell
 def _(mo):
     recommendation = mo.ui.radio(
-        options={"Use data provenance standard to check new data, despite delay": 1, "Forgo data provenance standard check in order to expedite improved model performance from the new data": 2, "Forgo data provenance standard and recommend renewal of previous license": 3},
+        options={"Use data provenance standard to check new data, despite delay": 0, "Forgo data provenance standard check in order to expedite improved model performance from the new data": 1, "Forgo data provenance standard and recommend renewal of previous license": 2},
         label="Having conferred with members of your organization, what do you recommend?",
     )
+    rec_options = ["check the new data, despite the delay","forgo the standard check in order to expedite improved model performance","recommend renewal of previous license"]
     recommendation
+    return rec_options, recommendation
+
+
+@app.cell
+def _(mo):
+    mo.md("""
+    ---
+    ## Justify Your Decision
+    """)
+    return
+
+
+@app.cell
+def _(mo, rec_options, recommendation):
+    justification = mo.md("")
+    if recommendation.value != None:
+        justification = mo.md(f"You chose to {rec_options[recommendation.value]}.")
+    justification
     return
 
 

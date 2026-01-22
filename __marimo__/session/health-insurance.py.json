@@ -84,12 +84,12 @@
     },
     {
       "id": "tAGN",
-      "code_hash": "69a8f796ef073c2aa3ad1117b472b7b4",
+      "code_hash": "3c402c0158858c6ddc0e21ace930ef69",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h2 id=\"recommendation\">Recommendation</h2></span>"
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h2 id=\"make-a-recommendation\">Make a Recommendation</h2></span>"
           }
         }
       ],
@@ -97,12 +97,38 @@
     },
     {
       "id": "xAnp",
-      "code_hash": "a17604b2481c058c7ddc1fc426c47800",
+      "code_hash": "7150261ac1ef3759b540e3b658bbb3b8",
       "outputs": [
         {
           "type": "data",
           "data": {
-            "text/html": "<marimo-ui-element object-id='xAnp-0' random-id='b8114697-e8a2-33b5-a2f5-442f2e675508'><marimo-radio data-initial-value='null' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Having conferred with members of your organization, what do you recommend?&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Use data provenance standard to check new data, despite delay&quot;,&quot;Forgo data provenance standard check in order to expedite improved model performance from the new data&quot;,&quot;Forgo data provenance standard and recommend renewal of previous license&quot;]' data-inline='false' data-disabled='false'></marimo-radio></marimo-ui-element>"
+            "text/html": "<marimo-ui-element object-id='xAnp-0' random-id='9d814efd-d422-3d45-e95f-3f1a8d922b3b'><marimo-radio data-initial-value='null' data-label='&quot;&lt;span class=&#92;&quot;markdown prose dark:prose-invert contents&#92;&quot;&gt;&lt;span class=&#92;&quot;paragraph&#92;&quot;&gt;Having conferred with members of your organization, what do you recommend?&lt;/span&gt;&lt;/span&gt;&quot;' data-options='[&quot;Use data provenance standard to check new data, despite delay&quot;,&quot;Forgo data provenance standard check in order to expedite improved model performance from the new data&quot;,&quot;Forgo data provenance standard and recommend renewal of previous license&quot;]' data-inline='false' data-disabled='false'></marimo-radio></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "zTEi",
+      "code_hash": "7b045b90cfd672ae27157e71facc809d",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"><hr />\n<h2 id=\"justify-your-decision\">Justify Your Decision</h2></span>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "CIsn",
+      "code_hash": "9520f33b4672521a1c47152f37aa38cc",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/markdown": "<span class=\"markdown prose dark:prose-invert contents\"></span>"
           }
         }
       ],
